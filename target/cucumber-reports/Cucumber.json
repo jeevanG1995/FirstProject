@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-13T08:40:47.362Z",
+        "line": 4,
+        "name": "Login to account with valid credentials",
+        "description": "",
+        "id": "login-to-stack-overflow-website;login-to-account-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to stack overflow website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on the login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters a valid user name",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enter a valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user clicks on the submit login button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user should be taken to success page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to stack overflow website",
+    "description": "\texisting user should be able to login to website",
+    "id": "login-to-stack-overflow-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featurefiles/Login.feature",
+    "tags": []
+  }
+]
